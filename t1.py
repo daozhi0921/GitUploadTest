@@ -17,7 +17,7 @@ def diff(listA,listB):
 
     #求并集
     retC = list(set(listA).union(set(listB)))
-    print ("retC1 is: ",retC)
+    #print ("retC1 is: ",retC)
 
     #求差集，在B中但不在A中
     retD = list(set(listB).difference(set(listA)))
